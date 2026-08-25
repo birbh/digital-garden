@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Digital Business Card",
-  description: "A fast, mobile-first digital business card.",
+  title: "My Digital Garden",
+  description: "A fast and modern personal website.",
 };
 
 export default function RootLayout({ children }) {
