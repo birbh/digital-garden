@@ -1,22 +1,24 @@
 
-export default function ProfileCard({alias,name,tag,address}) {
+export default function ProfileCard({alias,name,tag,address,intro}) {
   return (
-        <section className="mx-auto max-w-md text-center">
-          <div className="mx-auto mb-6 flex h-24 w-24 items-center justify-center rounded-full bg-zinc-400 text-3xl font-bold text-black">
-            
+        <section className="mx-auto max-w-xl text-center">
+          <div className="mx-auto mb-6 flex h-28 w-28 items-center justify-center shadow-[0_0_40px_rgba(110,231,183,0.25)] rounded-full border border-emerald-300 bg-emerald-300 text-4xl font-bold text-black">
             {alias}
           </div>
 
-          <h1 className="text-4xl font-bold">
+          <h1 className="text-5xl font-bold tracking-tight sm:text-6xl">
             {name}
           </h1>
 
-          <p className="mt-3 text-zinc-400">
+          <p className="mt-4 text-emerald-400 text-lg">
             {tag} 
           </p>
 
-          <p className="mt-2 text-sm text-zinc-500">
+          <p className="mt-2 text-zinc-500">
             {address}
+          </p>
+          <p className="mx-auto mt-6 max-w-lg text-base leading-7 text-zinc-400">
+            {intro}
           </p>
         </section>
   );

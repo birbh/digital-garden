@@ -34,7 +34,7 @@ export default function ProjectCards(){
                     <article className="rounded-xl border border-zinc-800 bg-zinc-950 p-5" key={project.title}>
                         <h3 className="text-xl font-semibold">{project.title}</h3>
                         <p className="mt-3 text-sm leading-6 text-zinc-400">{project.description}</p>
-                        <a className="mt-4 inline-block font-semibold text-cyan-400" href={project.url} target="_blank" rel="noopener noreferrer">
+                        <a className="mt-4 inline-block font-semibold text-cyan-400 transition-colors duration-300 hover:text-emerald-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-300" href={project.url} target="_blank" rel="noopener noreferrer">
                             View Project
                         </a>
                         <p className="mt-3 text-xs uppercase tracking-wide text-zinc-500">Type: {project.type}</p>
