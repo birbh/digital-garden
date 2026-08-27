@@ -5,7 +5,7 @@ export default function ContactAction(){
     function downloadCnt(){
         const contact= `BEGIN:VCARD
         VERSION:3.0
-        FN: Biraj Bhattarai
+        FN:Biraj Bhattarai
         TEL:+9779841384296
         EMAIL:birajbh65@gmail.com
         ADR:Kathmandu, Nepal
