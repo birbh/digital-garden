@@ -17,10 +17,7 @@ const projects=[
     },
     {
         title:"SmartTap",
-        description:"A sleek, credit card thin(.8mm) personal card powered entirely by NFC and its energy harvesting tech. i.e no battery required!!!",
-        url:"https://github.com/birbh/SmartTap",
-        type:"Hardware",
-        tags: ["NFC","PCB","Design","AURA☘️"]
+        tags: ["NFC","PCB","Design","AURA Farming☘️😁"]
     },
     {
         title:"INTmap",
@@ -42,7 +39,7 @@ export default function ProjectCards(){
 
             <div className="grid gap-5 sm:grid-cols-2">
                 {projects.map((project)=>(
-                    <article className="group rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-5 shadow-[0_0_0_1px_rgba(255,255,255,0.02)] transition-all duration-300 hover:-translate-y-1 hover:border-[var(--accent)] hover:shadow-[0_0_25px_rgba(110,231,183,0.12)]" key={project.title}>
+                    <article className="group rounded-2xl border border-[var(--border)]  p-5 shadow-[0_0_0_1px_rgba(255,255,255,0.02)] transition-all duration-300 hover:-translate-y-1 hover:border-[var(--accent)] hover:shadow-[0_0_25px_rgba(110,231,183,0.12)]" key={project.title}>
                        <div className="mb-4 flex items-center justify-between">
                         <span className=" rounded-full border border-[var(--border)] bg-black/20 px-2 py-1 text-[10px] uppercase tracking-[0.2em] text-[var(--muted)]">
                         {project.type}
@@ -50,20 +47,20 @@ export default function ProjectCards(){
                        </div>
                       <h3 className="text-xl font-semibold text-white">{project.title}</h3>
 
-                        <div className="mt-5 flex flex-wrap gap-2">
+                      
+                        <p className="mt-3 text-sm leading-6 text-[var(--muted)]">{project.description}</p>
+                          <div className="mt-5 flex flex-wrap gap-2">
                         {project.tags.map((tag) => (
                             <span
                             key={tag}
-                            className="rounded-full border border-[var(--border)] px-2 py-1 text-[10px] uppercase tracking-[0.12em] text-[var(--muted)]"
-                            >
+                            className="rounded-full border border-[var(--border)] px-2 py-1 text-[10px] uppercase tracking-[0.12em] text-[var(--muted)]">
                             {tag}
                             </span>
                         ))}
                         </div>
 
-                        <p className="mt-3 text-sm leading-6 text-[var(--muted)]">{project.description}</p>
-                        <a className="mt-6 inline-flex items-center text-sm font-medium text-[var(--accent)] transition-colors duration-300 hover:text-emerald-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-300" href={project.url} target="_blank" rel="noopener noreferrer">
-                            View Project
+                        <a className="mt-6 gap-2 inline-flex items-center text-sm font-medium text-[var(--sky)] transition-colors duration-300 hover:text-emerald-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-300" href={project.url} target="_blank" rel="noopener noreferrer">
+                            View Project <span aria-hidden="true">↗</span>
                         </a>
                         
                     </article>

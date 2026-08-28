@@ -3,13 +3,13 @@
 
 export default function ContactAction(){
     function downloadCnt(){
-        const contact= `BEGIN:VCARD
-        VERSION:3.0
-        FN:Biraj Bhattarai
-        TEL:+9779841384296
-        EMAIL:birajbh65@gmail.com
-        ADR:Kathmandu, Nepal
-        END:VCARD`;
+        const contact = `BEGIN:VCARD
+VERSION:3.0
+FN:Biraj Bhattarai
+TEL:+9779841384296
+EMAIL:birajbh65@gmail.com
+ADR:Kathmandu, Nepal
+END:VCARD`;
         const file=new Blob([contact],{type:"text/vcard"});
         const url=URL.createObjectURL(file);
         const link= document.createElement("a");
