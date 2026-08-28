@@ -17,6 +17,9 @@ const projects=[
     },
     {
         title:"SmartTap",
+        description:"A sleek, credit card thin(.8mm) personal card powered entirely by NFC and its energy harvesting tech. i.e no battery required!!!",
+        url:"https://github.com/birbh/SmartTap",
+        type:"Hardware",
         tags: ["NFC","PCB","Design","AURA Farming☘️😁"]
     },
     {
