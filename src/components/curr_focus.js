@@ -1,5 +1,4 @@
 import next from "next";
-import ProfileCard from "./profile_card";
 
 export default function CurrentFocus(){
     return(
