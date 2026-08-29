@@ -10,14 +10,14 @@ rel="noopener noreferrer">
     <Image 
         src="/assets/LinkedIn_icon.png" 
         alt="Linkedin" 
-        width={30} 
+        width={32} 
         height={20} 
       />
         </a>
         <a href="https://www.github.com/birbh" target="_blank"
 rel="noopener noreferrer">
             <Image 
-        src="/digital-garden/assets/github-logo.png" 
+        src="/assets/github-logo.png" 
         alt="github" 
         width={32} 
         height={20} 
@@ -26,7 +26,7 @@ rel="noopener noreferrer">
         <a href="https://www.instagram.com/bir.__bht/" target="_blank"
 rel="noopener noreferrer">
             <Image 
-        src="/digital-garden/assets/insta_logo.png" 
+        src="/assets/insta_logo.png" 
         alt="Instagram" 
         width={32} 
         height={20} 
@@ -36,7 +36,7 @@ rel="noopener noreferrer">
         <a href="https://linktr.ee/birbh" target="_blank"
 rel="noopener noreferrer">
             <Image 
-        src="/digital-garden/assets/linktree_logo.png" 
+        src="/assets/linktree_logo.png" 
         alt="Linktree" 
         width={25} 
         height={10} 
@@ -46,7 +46,7 @@ rel="noopener noreferrer">
         <a href="https://www.facebook.com/profile.php?id=100086725935941https://www.facebook.com/profile.php?viewas=100000686899395&id=100086725935941" target="_blank"
 rel="noopener noreferrer">
             <Image 
-        src="/digital-garden/assets/facebook-logo.png" 
+        src="/assets/facebook-logo.png" 
         alt="facebook" 
         width={32} 
         height={20} 
