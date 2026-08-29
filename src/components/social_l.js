@@ -8,7 +8,7 @@ export default function SocialLinks(){
         <a href="https://www.linkedin.com/in/thebirajh3ak3r/" target="_blank"
 rel="noopener noreferrer">
     <Image 
-        src="/digital-garden/assets/LinkedIn_icon.png" 
+        src="/assets/LinkedIn_icon.png" 
         alt="Linkedin" 
         width={30} 
         height={20} 
