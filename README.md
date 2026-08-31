@@ -87,6 +87,9 @@ const nextConfig = {
 
 export default nextConfig;
 ```
+
+And remove `/digital-garden` in file path in profile_card and social_l.js 
+
 ONLY CHANGE THIS IF RUNNING LOCALLY!!!!!!
 
 

@@ -4,7 +4,7 @@ export default function ProfileCard({alias,name,tag,address,intro}) {
         <section className="mx-auto max-w-xl rounded-3xl border border-[var(--border)] text-center  sm:p-12 p-8">
           <div className="mx-auto mb-6 h-40 w-40 overflow-hidden rounded-full border border-emerald-300 shadow-[0_0_30px_rgba(110,231,183,0.18)] transition-transform duration-500 hover:scale-105">
             <Image 
-            src="/assets/pfp_img.png"
+            src="/digital-garden/assets/pfp_img.png"
             alt={`${alias} photo`}
             width={200}
             height={200}

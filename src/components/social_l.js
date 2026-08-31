@@ -13,7 +13,7 @@ export default function SocialLinks() {
      >
        <Image
          className="social-icon"
-         src="/assets/LinkedIn_icon.png"
+         src="/digital-garden/assets/LinkedIn_icon.png"
          alt="LinkedIn"
          width={32}
          height={32}
@@ -29,7 +29,7 @@ export default function SocialLinks() {
      >
        <Image
          className="social-icon"
-         src="/assets/github-logo.png"
+         src="/digital-garden/assets/github-logo.png"
          alt="GitHub"
          width={32}
          height={32}
@@ -45,7 +45,7 @@ export default function SocialLinks() {
      >
        <Image
          className="social-icon"
-         src="/assets/insta_logo.png"
+         src="/digital-garden/assets/insta_logo.png"
          alt="Instagram"
          width={32}
          height={32}
@@ -61,7 +61,7 @@ export default function SocialLinks() {
      >
        <Image
          className="social-icon social-icon--linktree"
-         src="/assets/linktree_logo.png"
+         src="/digital-garden/assets/linktree_logo.png"
          alt="Linktree"
          width={28}
          height={28}
@@ -77,7 +77,7 @@ export default function SocialLinks() {
      >
        <Image
          className="social-icon"
-         src="/assets/facebook-logo.png"
+         src="/digital-garden/assets/facebook-logo.png"
          alt="Facebook"
          width={32}
          height={32}
