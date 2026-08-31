@@ -37,6 +37,10 @@ https://birbh.github.io/digital-garden/
 ### Video:
 
 
+https://github.com/user-attachments/assets/0b8d12ce-4bc0-4a49-a65a-f746bcf5ac19
+
+
+
 ## Tech used
 
 I just used simple tech behind the website,like:
