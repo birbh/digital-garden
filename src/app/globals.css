@@ -85,3 +85,76 @@ body {
     animation: none;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.timeline-card {
+  min-width: 0;
+}
+
+.timeline-node {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.timeline-node-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.05;
+  gap: 2px;
+  max-width: 100%;
+}
+
+.timeline-node-month,
+.timeline-node-year {
+  display: block;
+  max-width: 100%;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.timeline-node-month {
+  font-size: 11px;
+  font-weight: 700;
+  color: white;
+}
+
+.timeline-node-year {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .timeline-card:hover,
+  .timeline-card:focus-within {
+    transform: translateY(-4px);
+    border-color: var(--accent);
+    box-shadow: 0 0 25px rgba(110, 231, 183, 0.12);
+  }
+
+  .timeline-card:hover .timeline-refs,
+  .timeline-card:focus-within .timeline-refs {
+    max-height: 10rem;
+    opacity: 1;
+  }
+}
+
+@media (hover: none), (pointer: coarse) {
+  .timeline-refs {
+    max-height: 10rem;
+    opacity: 1;
+  }
+}

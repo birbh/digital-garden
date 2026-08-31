@@ -1,0 +1,8 @@
+.timeline-card_date{
+    display:block;
+}
+@media (hover:none),(pointer:coarse){
+    .timeline-card_date{
+        display: none;
+    }
+}

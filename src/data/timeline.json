@@ -1,6 +1,7 @@
 [
   {
     "year": 2024,
+    "month": "June",
     "title": "High School (Started)",
     "school": "Trinity International College, Dillibazar, Kathmandu, Nepal",
     "description": "Started learning basic programming",
@@ -9,6 +10,7 @@
   },
   {
     "year": 2025,
+    "month": "February",
     "title": "Joined Hack Club",
     "description": "Started making projects in hack club",
     "type": "Project",
@@ -16,37 +18,51 @@
   },
   {
     "year": 2025,
+    "month": "April",
     "title": "INTmap",
     "description": "Made the cool project INTmap, an interactive map of Nepal including other information and a travel explorer.",
     "type": "Project",
     "refs": [
-      "https://github.com/birbh/INTmap",
-      "https://flavortown.hackclub.com/projects/19625"
-    ]
+      {"label": "Gitub",
+      "url": "https://github.com/birbh/INTmap"},
+      {"label": "Flavortown - Hack Club",
+      "url": "https://flavortown.hackclub.com/projects/19625"}
+ ]
   },
   {
-    "year": 2025,
+    "year": 2026,
+    "month": "January",
     "title": "Sci-Tech EXPO (Intra-College)",
     "description": "Made a basic hardware project integrated with software and some High School Chemistry and secured first place in 'Intra-College' group at Trinity International College.",
     "type": "Event + Project",
-    "refs": []
+    "refs": [
+      {"label": "Linkedin",
+      "url": "https://www.linkedin.com/in/thebirajh3ak3r/details/honors/"}]
   },
   {
-    "year": 2025,
+    "year": 2026,
+    "month": "Januaryr",
     "title": "Sci-Tech EXPO (Inter-College)",
     "description": "Secured 3rd prize with the same project in 'Inter-College' group at KIST College, Kamal Pokhari, Kathmandu.",
     "type": "Event + Project",
-    "refs": []
+    "refs": [
+      {"label": "Linkedin",
+      "url": "https://www.linkedin.com/in/thebirajh3ak3r/details/honors/"}
+    ]
   },
   {
     "year": 2026,
+    "month": "February",
     "title": "Hack Club Campfire",
     "description": "Attended Hack Club's satellite event (game jam) called 'Campfire Kathmandu' in Kathmandu, Nepal.",
     "type": "Event + Experience",
-    "refs": []
+    "refs": [
+      {"label": "Linkedin",
+      "url": "https://www.linkedin.com/in/thebirajh3ak3r/details/certifications/"}]
   },
   {
     "year": 2026,
+    "month": "May",
     "title": "High School Completion",
     "description": "Passed High School",
     "type": "Education",
@@ -54,38 +70,56 @@
   },
   {
     "year": 2026,
+    "month": "May-July",
     "title": "Hack Club Fallout",
-    "description": "Made working hardware projects 'PrintSafe' and 'HydroNode' in Fallout, the largest high school hardware hackathon organized by teens.",
+    "description": "Made working hardware projects 'PrintSafe' and 'HydroNode' in Hack Club Fallout",
     "type": "Project",
     "refs": [
-      "https://github.com/birbh/PrintSafe",
-      "https://fallout.hackclub.com/projects/845",
-      "https://github.com/birbh/hydro-node/",
-      "https://fallout.hackclub.com/projects/3604"
+      {"label": "Gitub - PrintSafe",
+      "url": "https://github.com/birbh/PrintSafe"},
+      {"label": "Fallout - PrintSafe",
+      "url": "https://fallout.hackclub.com/projects/845"},
+      {"label": "Gitub - HydroNode",
+      "url": "https://github.com/birbh/hydro-node/"},
+      {"label": "Fallout - HydroNode",
+      "url": "https://fallout.hackclub.com/projects/3604"}
     ]
   },
   {
     "year": 2026,
+    "month": "July",
     "title": "Shenzhen Hardware Trip",
-    "description": "Traveled to Shenzhen, China (hardware capital of the world) after 130+ hours of work on PrintSafe and HydroNode.",
+    "description": "Traveled to Shenzhen, China (hardware capital of the world) after 130+ hours of work on PrintSafe and HydroNode for a hardware Hackathon Fallout, the largest high school hardware hackathon organized by teens supported by Hack Club.",
     "type": "Experience + Career",
-    "refs": []
+    "refs": [
+
+      {"label": "Linkedin-post",
+      "url": "https://lnkd.in/p/gGWQnPFd"},
+      {"label": "Linkedin-exp",
+      "url": "https://www.linkedin.com/in/thebirajh3ak3r/details/experience/"}
+    ]
   },
   {
     "year": 2026,
+    "month": "August",
     "title": "SmartTap - Custom PCB",
     "description": "Created my first custom PCB using KiCAD: an NFC-enabled business card using energy harvesting with no battery required.",
     "type": "Project",
     "refs": [
-      "https://github.com/birbh/SmartTap",
-      "https://macondo.hackclub.com/projects/16416"
+      {"label": "Gitub",
+      "url": "https://github.com/birbh/SmartTap"},
+      {"label": "Macondo - Hack Club",
+      "url": "https://macondo.hackclub.com/projects/16416"}
     ]
   },
   {
     "year": 2026,
+    "month": "September",
     "title": "University",
-    "description": "Started BE Electronics, Communication and Information Engineering at Tribhuvan University (TU), Nepal.",
+    "description": "Started BE in Electronics, Communication and Information Engineering at Tribhuvan University(TU), Nepal.",
     "type": "Education",
     "refs": []
   }
 ]
+
+ 
